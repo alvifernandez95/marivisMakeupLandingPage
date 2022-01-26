@@ -1,0 +1,357 @@
+/*Reseteamos el padding y el margen para todos los archivos. */
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Le aplicamos estilo al header de todas las paginas. Esto incluye
+color de background, color de letras, margenes y alineación. */
+header{
+    background-color:#D067E6; 
+    color:white;
+    margin-bottom: 3%;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid white;
+}
+
+/*Le aplicamos estilo al footer de todas las paginas.*/
+footer{
+  border: 1px solid white;
+  text-align: center;
+  background-color:#D067E6; 
+  color:white;
+  margin-bottom: 3%;
+  margin-top: 5%;
+}
+
+/*Le aplicamos color al body de todas las paginas.*/
+body{
+    background-color: #c2abc7;
+}
+
+/*Le aplicamos estilo al titulo principal. Incluye tamaño y tipo de fuente y alineación.*/
+h1{
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Pushster', cursive;
+    font-size: 200%;
+    padding-bottom: 1%;
+}
+
+/*Le aplicamos estilo los anchor.*/
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Le damos color y aplicamos estilo de letra a los titulos h2.*/
+h2{
+    color: whitesmoke;
+    font-family: 'Pushster', cursive;
+    text-align: center;
+    font-size: 300%;
+    margin-bottom: 3%;
+    border: 1px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+/*Estilo de la imagen del index.*/
+#MariIntro{
+    max-width: 100%;
+    height: auto;
+    margin-left: 2%;
+    float: left;
+    border-color: #D067E6;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-right: 3%;
+    grid-area: fotoIndex;
+}
+
+/*Estilo del parrafo de presentación del index.*/
+#intro{
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    margin-right: 2%;
+    text-indent: 5%;
+    grid-area: introIndex;
+}
+
+/*Estilo del parrafo de presentación del index.*/
+#logo{
+    margin-top: 1%;
+}
+
+/*Estilo de la clase centeredTable utilizada para la tabla de precios.*/
+.centeredTable {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+  }
+
+/*Estilo del texto en el header.*/
+.headerText{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Estilo del table header para la tabla de precios.*/
+th{
+    height: 70px;
+    background-color: #DFB4E3;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Estilo de la tabla de precios.*/
+th, td {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+/*Estilo de los títulos h3.*/
+h3{
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200%;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+/*Estilo de los títulos h4.*/
+h4{
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
+
+/*Estilo de los párrafos de la página blog.*/
+.parrafoBlog{
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90%;
+  padding-right: 5%;
+  padding-left: 2%;
+  font-weight: 1000;
+  padding-bottom: 1%;
+  text-indent: 5%;
+}
+
+.blogImage{
+  width: 90%;
+  height: auto;
+}
+
+label{
+  color: white;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.galleryContainer{
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.galleryContainerImageFrame{
+  background-color:#D067E6;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border: white;
+  border-style: solid;
+  border-width: 3px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.galleryContainerImageDescription{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.galleryContainerImage{
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+/*Estilo del contenedor flex en el header*/
+.contenedorFlex{ 
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+/*Estilo del item flex en el header*/
+.itemFlex{
+  border: 1px solid;
+  width: 10%;
+  height: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.contenedorFlexFooter{ 
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+.itemFlexFooter{
+  width: 10%;
+  height: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.gridContainer{
+  display: grid;
+  grid-template-areas: 
+  "tituloMain tituloMain tituloMain" 
+  "tituloBlog1 tituloBlog1 tituloBlog1" 
+  "imagenBlog1 imagenBlog1 textoBlog1" 
+  "tituloBlog2 tituloBlog2 tituloBlog2"
+  "imagenBlog2 imagenBlog2 textoBlog2";
+}
+
+#containerMainTitle{
+  grid-area: tituloMain;
+}
+
+#containerTitulo1{
+  grid-area: tituloBlog1;
+  border: solid 1px white;
+  background-color: #D067E6;
+  margin-bottom: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#containerImagen1{
+  grid-area: imagenBlog1;
+  border: solid 1px white;
+  background-color: #D067E6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+#containerTexto1{
+  grid-area: textoBlog1;
+  border: solid 1px white;
+  background-color: #D067E6;
+  margin-right: 2%;
+}
+
+#containerTitulo2{
+  grid-area: tituloBlog2;
+  border: solid 1px white;
+  background-color: #D067E6;
+  margin: 2% 1% 2% 1%;
+}
+
+#containerImagen2{
+  grid-area: imagenBlog2;
+  border: solid 1px white;
+  background-color: #D067E6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+#containerTexto2{
+  grid-area: textoBlog2;
+  border: solid 1px white;
+  background-color: #D067E6;
+  margin-right: 2%;
+}
+
+.contenedorGridForm{
+  list-style: none;
+  display: grid;
+  grid-template-areas: 
+  "nombre apellido email" 
+  "mensaje mensaje mensaje" 
+  "mensaje mensaje mensaje";
+}
+
+#nombreForm{
+  grid-area: nombre;
+  margin-left: 3%;
+}
+
+#apellidoForm{
+  grid-area: apellido;
+}
+
+#emailForm{
+  grid-area: email;
+}
+
+#mensajeForm{
+  grid-area: mensaje;
+  margin-top: 5%;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+.logoContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media all and (min-width: 760px){
+  #gridContainerIndex{
+    display: grid;
+    grid-template-areas: 
+    "titleIndex titleIndex" 
+    "fotoIndex introIndex" ;
+  }
+}
+
+#tituloIndex{
+  grid-area: titleIndex;
+}
+
+@media all and (max-width: 760px){
+  #gridContainerIndex{
+    display: grid;
+    grid-template-areas:
+    "titleIndex"
+    "fotoIndex"
+    "introIndex";
+  }
+  #flexContainerImageMariIntro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #MariIntro{
+    width: 90%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+  }
+}
