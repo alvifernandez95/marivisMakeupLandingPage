@@ -183,6 +183,11 @@ label{
   margin-left: 25%;
   margin-top: 5%;
   margin-bottom: 2%;
+  transition: transform .2s;
+}
+
+.galleryContainerImage:hover{
+  transform: scale(1.1); 
 }
 
 /*Estilo del contenedor flex en el header*/
