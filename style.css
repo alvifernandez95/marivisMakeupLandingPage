@@ -401,4 +401,54 @@ label{
     margin-bottom: 3%;
     margin-left: 2%;
   }
+
+  .contenedorGridForm{
+    list-style: none;
+    display: grid;
+    grid-template-areas: 
+    "nombre"
+    "apellido" 
+    "email"
+    "mensaje"
+    "submit";
+  }
+
+  #submitButtonContainer{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #nombreForm{
+    margin-left: 2%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: left;
+  }
+  
+  #apellidoForm{
+    margin-left: 2%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: left;
+  }
+  
+  #emailForm{
+    margin-left: 2%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: left;
+  }
+  
+  #mensajeForm{
+    margin-left: 2%;
+    grid-area: mensaje;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+  }
+  
 }
