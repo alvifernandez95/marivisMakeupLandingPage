@@ -6,7 +6,8 @@
 /*Le aplicamos estilo al header de todas las paginas. Esto incluye
 color de background, color de letras, margenes y alineación. */
 header{
-    background-color:#D067E6; 
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,28,169,0.8776552857471114) 100%, rgba(0,212,255,1) 100%);
     color:white;
     margin-bottom: 3%;
     text-align: center;
@@ -18,7 +19,8 @@ header{
 footer{
   border: 1px solid white;
   text-align: center;
-  background-color:#D067E6; 
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,28,169,0.8776552857471114) 100%, rgba(0,212,255,1) 100%);
   color:white;
   margin-bottom: 3%;
   margin-top: 5%;
