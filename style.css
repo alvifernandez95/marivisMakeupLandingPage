@@ -107,7 +107,7 @@ h2{
 /*Estilo del table header para la tabla de precios.*/
 th{
     height: 70px;
-    background-color: #DFB4E3;
+    /*background-color: #DFB4E3;*/
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
@@ -195,11 +195,7 @@ label{
 /*Estilo del contenedor flex en el header*/
 .contenedorFlex{ 
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+
   
 }
 
@@ -327,7 +323,8 @@ label{
   grid-area: submit;
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
+  height: 5%;
 }
 
 #submitButton{
@@ -340,7 +337,7 @@ label{
   text-align: center;
   font-size: 28px;
   padding: 5%;
-  width: 40%;
+  width: 20%;
   transition: all 0.5s;
   cursor: pointer;
   margin: 1%;
@@ -486,4 +483,28 @@ label{
     width: 70%;
   }
   
+}
+
+form{
+  width: 80%;
+  margin-left: 2%;
+}
+
+#navbarText{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#marcaTexto{
+  font-family: 'Pushster', cursive;
+}
+
+.carouselContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+#submitButtonContainer{
+  margin-top: 2%;
 }
