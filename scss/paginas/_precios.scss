@@ -1,0 +1,21 @@
+/*Estilo de la clase centeredTable utilizada para la tabla de precios.*/
+.centeredTable {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+/*Estilo del table header para la tabla de precios.*/
+th{
+    height: 70px;
+    /*background-color: #DFB4E3;*/
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Estilo de la tabla de precios.*/
+th, td {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}

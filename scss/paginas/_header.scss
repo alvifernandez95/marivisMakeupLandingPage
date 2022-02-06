@@ -1,0 +1,50 @@
+/*Le aplicamos estilo al header de todas las paginas. Esto incluye
+color de background, color de letras, margenes y alineación. */
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,28,169,0.8776552857471114) 100%, rgba(0,212,255,1) 100%);
+    color:white;
+    margin-bottom: 3%;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid white;
+}
+
+/*Estilo del logo.*/
+#logo{
+    margin-top: 1%;
+}
+
+/*Estilo del texto en el header.*/
+.headerText{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Estilo del contenedor flex en el header*/
+.contenedorFlex{ 
+    list-style: none;
+}
+  
+/*Estilo del item flex en el header*/
+.itemFlex{
+    border: 1px solid;
+    width: 10%;
+    height: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.logoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbarText{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#marcaTexto{
+    font-family: 'Pushster', cursive;
+}

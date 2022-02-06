@@ -1,0 +1,89 @@
+/*Estilo de los párrafos de la página blog.*/
+.parrafoBlog{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90%;
+    padding-right: 5%;
+    padding-left: 2%;
+    font-weight: 1000;
+    padding-bottom: 1%;
+    text-indent: 5%;
+}
+
+/*Estilo de las imagenes de la página blog.*/
+.blogImage{
+    width: 90%;
+    height: auto;
+}
+
+label{
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-areas: 
+    "tituloMain tituloMain tituloMain" 
+    "tituloBlog1 tituloBlog1 tituloBlog1" 
+    "imagenBlog1 imagenBlog1 textoBlog1" 
+    "tituloBlog2 tituloBlog2 tituloBlog2"
+    "imagenBlog2 imagenBlog2 textoBlog2";
+}
+  
+#containerMainTitle{
+    grid-area: tituloMain;
+}
+  
+#containerTitulo1{
+    grid-area: tituloBlog1;
+    border: solid 1px white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,28,169,0.8776552857471114) 100%, rgba(0,212,255,1) 100%);
+    margin-bottom: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+  
+#containerImagen1{
+    grid-area: imagenBlog1;
+    border: solid 1px white;
+    background-color: #D067E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+  
+#containerTexto1{
+    grid-area: textoBlog1;
+    border: solid 1px white;
+    background-color: #D067E6;
+    margin-right: 2%;
+}
+  
+#containerTitulo2{
+    grid-area: tituloBlog2;
+    border: solid 1px white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,28,169,0.8776552857471114) 100%, rgba(0,212,255,1) 100%);
+    margin: 2% 1% 2% 1%;
+}
+  
+#containerImagen2{
+    grid-area: imagenBlog2;
+    border: solid 1px white;
+    background-color: #D067E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+  
+#containerTexto2{
+    grid-area: textoBlog2;
+    border: solid 1px white;
+    background-color: #D067E6;
+    margin-right: 2%;
+}
+  

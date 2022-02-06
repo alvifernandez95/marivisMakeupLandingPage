@@ -1,0 +1,137 @@
+.contenedorGridForm{
+    list-style: none;
+    display: grid;
+    grid-template-areas: 
+    "nombre apellido email" 
+    "mensaje mensaje submit" ;
+}
+  
+#nombreForm{
+    grid-area: nombre;
+    margin-left: 3%;
+}
+  
+#apellidoForm{
+    grid-area: apellido;
+}
+
+#emailForm{
+    grid-area: email;
+}
+  
+#mensajeForm{
+    grid-area: mensaje;
+    margin-top: 5%;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+  
+#submitButtonContainer{
+    grid-area: submit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+}
+
+#submitButton{
+    display: inline-block;
+    border-radius: 5%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,28,169,0.8776552857471114) 100%, rgba(0,212,255,1) 100%);
+    border: solid 1px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 5%;
+    width: 20%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1%;
+}
+  
+#submitButton span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+#submitButton span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+#submitButton:hover span{
+    padding-right: 25px;
+}
+  
+#submitButton:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+
+@media all and (max-width: 760px){
+    .contenedorGridForm{
+        list-style: none;
+        display: grid;
+        grid-template-areas: 
+        "nombre"
+        "apellido" 
+        "email"
+        "mensaje"
+        "submit";
+    }
+    
+    #submitButtonContainer{
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #nombreForm{
+        margin-left: 2%;
+        margin-top: 5%;
+        display: flex;
+        justify-content: left;
+    }
+      
+    #apellidoForm{
+        margin-left: 2%;
+        margin-top: 5%;
+        display: flex;
+        justify-content: left;
+    }
+      
+    #emailForm{
+        margin-left: 2%;
+        margin-top: 5%;
+        display: flex;
+        justify-content: left;
+    }
+      
+    #mensajeForm{
+        margin-left: 2%;
+        grid-area: mensaje;
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+    }
+}
+
+form{
+    width: 80%;
+    margin-left: 2%;
+}
+
+#submitButtonContainer{
+    margin-top: 2%;
+}

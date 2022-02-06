@@ -1,0 +1,25 @@
+{
+  "name": "marivismakeuplandingpage",
+  "version": "1.0.0",
+  "description": "Landing Page for a make-up entrepreneur.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-css\"" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvifernandez95/marivisMakeupLandingPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvifernandez95/marivisMakeupLandingPage/issues"
+  },
+  "homepage": "https://github.com/alvifernandez95/marivisMakeupLandingPage#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
