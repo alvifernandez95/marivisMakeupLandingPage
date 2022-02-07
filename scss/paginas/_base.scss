@@ -6,7 +6,7 @@
 
 /*Le aplicamos color al body de todas las paginas.*/
 body{
-    background-color: #c2abc7;
+    background-color: $secondaryColor;
 }
 
 /*Le aplicamos estilo al titulo principal. Incluye tamaño y tipo de fuente y alineación.*/
@@ -20,25 +20,25 @@ h1{
 
 /*Le aplicamos estilo los anchor.*/
 a{
-    color: white;
+    color: $fontColor;
     text-decoration: none;
 }
 
 /*Le damos color y aplicamos estilo de letra a los titulos h2.*/
 h2{
-    color: whitesmoke;
+    color: $fontColor;
     font-family: 'Pushster', cursive;
     text-align: center;
     font-size: 300%;
     margin-bottom: 3%;
     border: 1px;
     border-style: solid;
-    border-color: whitesmoke;
+    border-color: $borderColor;
 }
 
 /*Estilo de los títulos h3.*/
 h3{
-    color: whitesmoke;
+    color: $fontColor;
     font-family: 'Montserrat', sans-serif;
     font-size: 200%;
     padding-top: 2%;
@@ -47,7 +47,7 @@ h3{
 
 /*Estilo de los títulos h4.*/
 h4{
-    color: whitesmoke;
+    color: $fontColor;
     font-family: 'Montserrat', sans-serif;
     padding-left: 2%;
     padding-bottom: 2%;

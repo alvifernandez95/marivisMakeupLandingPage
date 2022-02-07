@@ -4,7 +4,7 @@
     height: auto;
     margin-left: 2%;
     float: left;
-    border-color: #D067E6;
+    border-color: $mainColor;
     border-width: 10px;
     border-style: solid;
     border-radius: 10px;
@@ -14,7 +14,7 @@
 
 /*Estilo del parrafo de presentación del index.*/
 #intro{
-    color: white;
+    color: $fontColor;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     display: inline;

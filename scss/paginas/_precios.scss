@@ -10,12 +10,12 @@
 th{
     height: 70px;
     /*background-color: #DFB4E3;*/
-    color: white;
+    color: $fontColor;
     font-family: 'Montserrat', sans-serif;
 }
 
 /*Estilo de la tabla de precios.*/
 th, td {
-    border-bottom: 1px solid #ddd;
-    border-top: 1px solid #ddd;
+    border-bottom: 1px solid $borderColor;
+    border-top: 1px solid $borderColor;
 }

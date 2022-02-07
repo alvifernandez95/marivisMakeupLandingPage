@@ -38,10 +38,10 @@
 #submitButton{
     display: inline-block;
     border-radius: 5%;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,28,169,0.8776552857471114) 100%, rgba(0,212,255,1) 100%);
+    background: $mainGradient;
     border: solid 1px;
-    border-color: #FFFFFF;
-    color: #FFFFFF;
+    border-color: $borderColor;
+    color: $fontColor;
     text-align: center;
     font-size: 28px;
     padding: 5%;

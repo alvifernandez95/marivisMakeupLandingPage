@@ -18,7 +18,7 @@ h1 {
 
 /*Le aplicamos estilo los anchor.*/
 a {
-  color: white;
+  color: whitesmoke;
   text-decoration: none; }
 
 /*Le damos color y aplicamos estilo de letra a los titulos h2.*/
@@ -52,11 +52,11 @@ color de background, color de letras, margenes y alineación. */
 header {
   background: #020024;
   background: linear-gradient(90deg, #020024 0%, rgba(195, 28, 169, 0.877655) 100%, #00d4ff 100%);
-  color: white;
+  color: whitesmoke;
   margin-bottom: 3%;
   text-align: center;
   vertical-align: middle;
-  border: 1px solid white; }
+  border: 1px solid whitesmoke; }
 
 /*Estilo del logo.*/
 #logo {
@@ -92,11 +92,11 @@ header {
 
 /*Le aplicamos estilo al footer de todas las paginas.*/
 footer {
-  border: 1px solid white;
+  border: 1px solid whitesmoke;
   text-align: center;
   background: #020024;
   background: linear-gradient(90deg, #020024 0%, rgba(195, 28, 169, 0.877655) 100%, #00d4ff 100%);
-  color: white;
+  color: whitesmoke;
   margin-bottom: 3%;
   margin-top: 5%; }
 
@@ -157,7 +157,7 @@ footer {
 
 /*Estilo del parrafo de presentación del index.*/
 #intro {
-  color: white;
+  color: whitesmoke;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
   display: inline;
@@ -214,7 +214,7 @@ footer {
   height: auto; }
 
 label {
-  color: white;
+  color: whitesmoke;
   font-family: 'Montserrat',sans-serif; }
 
 .gridContainer {
@@ -226,7 +226,7 @@ label {
 
 #containerTitulo1 {
   grid-area: tituloBlog1;
-  border: solid 1px white;
+  border: solid 1px whitesmoke;
   background: linear-gradient(90deg, #020024 0%, rgba(195, 28, 169, 0.877655) 100%, #00d4ff 100%);
   margin-bottom: 2%;
   margin-left: 1%;
@@ -234,7 +234,7 @@ label {
 
 #containerImagen1 {
   grid-area: imagenBlog1;
-  border: solid 1px white;
+  border: solid 1px whitesmoke;
   background-color: #D067E6;
   display: flex;
   align-items: center;
@@ -244,19 +244,19 @@ label {
 
 #containerTexto1 {
   grid-area: textoBlog1;
-  border: solid 1px white;
+  border: solid 1px whitesmoke;
   background-color: #D067E6;
   margin-right: 2%; }
 
 #containerTitulo2 {
   grid-area: tituloBlog2;
-  border: solid 1px white;
+  border: solid 1px whitesmoke;
   background: linear-gradient(90deg, #020024 0%, rgba(195, 28, 169, 0.877655) 100%, #00d4ff 100%);
   margin: 2% 1% 2% 1%; }
 
 #containerImagen2 {
   grid-area: imagenBlog2;
-  border: solid 1px white;
+  border: solid 1px whitesmoke;
   background-color: #D067E6;
   display: flex;
   align-items: center;
@@ -266,7 +266,7 @@ label {
 
 #containerTexto2 {
   grid-area: textoBlog2;
-  border: solid 1px white;
+  border: solid 1px whitesmoke;
   background-color: #D067E6;
   margin-right: 2%; }
 
@@ -278,7 +278,7 @@ label {
   background-color: #D067E6;
   margin-top: 10%;
   margin-bottom: 10%;
-  border: white;
+  border: whitesmoke;
   border-style: solid;
   border-width: 3px;
   margin-left: 1%;
@@ -286,7 +286,7 @@ label {
 
 .galleryContainerImageDescription {
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: whitesmoke;
   font-weight: 500;
   text-align: center;
   margin-bottom: 2%; }
@@ -311,13 +311,13 @@ label {
 th {
   height: 70px;
   /*background-color: #DFB4E3;*/
-  color: white;
+  color: whitesmoke;
   font-family: 'Montserrat', sans-serif; }
 
 /*Estilo de la tabla de precios.*/
 th, td {
-  border-bottom: 1px solid #ddd;
-  border-top: 1px solid #ddd; }
+  border-bottom: 1px solid whitesmoke;
+  border-top: 1px solid whitesmoke; }
 
 .contenedorGridForm {
   list-style: none;
@@ -353,8 +353,8 @@ th, td {
   border-radius: 5%;
   background: linear-gradient(90deg, #020024 0%, rgba(195, 28, 169, 0.877655) 100%, #00d4ff 100%);
   border: solid 1px;
-  border-color: #FFFFFF;
-  color: #FFFFFF;
+  border-color: whitesmoke;
+  color: whitesmoke;
   text-align: center;
   font-size: 28px;
   padding: 5%;

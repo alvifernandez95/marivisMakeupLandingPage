@@ -1,10 +1,10 @@
 /*Le aplicamos estilo al footer de todas las paginas.*/
 footer{
-    border: 1px solid white;
+    border: 1px solid $borderColor;
     text-align: center;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,28,169,0.8776552857471114) 100%, rgba(0,212,255,1) 100%);
-    color:white;
+    background: $mainGradient;
+    color:$fontColor;
     margin-bottom: 3%;
     margin-top: 5%;
 }
