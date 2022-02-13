@@ -16,3 +16,7 @@ $colores: (
 }
 
 /*Ahora vamos a utilizar un Mixin.*/
+@mixin fontProperties($fontSize, $fontWeight) {
+    font-weight: $fontWeight;
+    font-size: $fontSize;
+}

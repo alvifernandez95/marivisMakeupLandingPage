@@ -14,7 +14,7 @@ h1{
     vertical-align: middle;
     text-align: center;
     font-family: 'Pushster', cursive;
-    font-size: 200%;
+    @include fontProperties(200%, 100);
     padding-bottom: 1%;
 }
 
@@ -29,7 +29,7 @@ h2{
     color: map-get($colores , fontColor );
     font-family: 'Pushster', cursive;
     text-align: center;
-    font-size: 300%;
+    @include fontProperties(300%, 100);
     margin-bottom: 3%;
     border: 1px;
     border-style: solid;
@@ -40,7 +40,7 @@ h2{
 h3{
     color: map-get($colores , fontColor );
     font-family: 'Montserrat', sans-serif;
-    font-size: 200%;
+    @include fontProperties(200%, 100);
     padding-top: 2%;
     padding-left: 2%;
 }

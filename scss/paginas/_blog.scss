@@ -2,12 +2,11 @@
 .parrafoBlog{
     color: map-get($colores , fontColor );
     font-family: 'Montserrat', sans-serif;
-    font-size: 90%;
     padding-right: 5%;
     padding-left: 2%;
-    font-weight: 1000;
     padding-bottom: 1%;
     text-indent: 5%;
+    @include fontProperties(90%, 1000);
 }
 
 /*Estilo de las imagenes de la página blog.*/

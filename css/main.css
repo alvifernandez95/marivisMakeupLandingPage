@@ -21,6 +21,7 @@ h1 {
   vertical-align: middle;
   text-align: center;
   font-family: 'Pushster', cursive;
+  font-weight: 100;
   font-size: 200%;
   padding-bottom: 1%; }
 
@@ -34,6 +35,7 @@ h2 {
   color: whitesmoke;
   font-family: 'Pushster', cursive;
   text-align: center;
+  font-weight: 100;
   font-size: 300%;
   margin-bottom: 3%;
   border: 1px;
@@ -44,6 +46,7 @@ h2 {
 h3 {
   color: whitesmoke;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
   font-size: 200%;
   padding-top: 2%;
   padding-left: 2%; }
@@ -197,12 +200,12 @@ footer {
 .parrafoBlog {
   color: whitesmoke;
   font-family: 'Montserrat', sans-serif;
-  font-size: 90%;
   padding-right: 5%;
   padding-left: 2%;
-  font-weight: 1000;
   padding-bottom: 1%;
-  text-indent: 5%; }
+  text-indent: 5%;
+  font-weight: 1000;
+  font-size: 90%; }
 
 /*Estilo de las imagenes de la página blog.*/
 .blogImage {
