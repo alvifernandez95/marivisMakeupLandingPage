@@ -9,13 +9,12 @@
 /*Estilo del table header para la tabla de precios.*/
 th{
     height: 70px;
-    /*background-color: #DFB4E3;*/
-    color: $fontColor;
+    color: map-get($colores , fontColor );
     font-family: 'Montserrat', sans-serif;
 }
 
 /*Estilo de la tabla de precios.*/
 th, td {
-    border-bottom: 1px solid $borderColor;
-    border-top: 1px solid $borderColor;
+    border-bottom: 1px solid map-get($colores , borderColor );
+    border-top: 1px solid map-get($colores , borderColor );
 }

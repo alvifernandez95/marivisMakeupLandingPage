@@ -4,9 +4,7 @@
     height: auto;
     margin-left: 2%;
     float: left;
-    border-color: $mainColor;
-    border-width: 10px;
-    border-style: solid;
+    border: solid 10px map-get($colores , mainColor );
     border-radius: 10px;
     margin-right: 3%;
     grid-area: fotoIndex;
@@ -14,7 +12,7 @@
 
 /*Estilo del parrafo de presentación del index.*/
 #intro{
-    color: $fontColor;
+    color: map-get($colores , fontColor );
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     display: inline;

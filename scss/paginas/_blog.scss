@@ -1,6 +1,6 @@
 /*Estilo de los párrafos de la página blog.*/
 .parrafoBlog{
-    color: $fontColor;
+    color: map-get($colores , fontColor );
     font-family: 'Montserrat', sans-serif;
     font-size: 90%;
     padding-right: 5%;
@@ -17,7 +17,7 @@
 }
 
 label{
-    color: $fontColor;
+    color: map-get($colores , fontColor );
     font-family: 'Montserrat',sans-serif;
 }
 
@@ -37,8 +37,8 @@ label{
   
 #containerTitulo1{
     grid-area: tituloBlog1;
-    border: solid 1px $borderColor;
-    background: $mainGradient;
+    border: solid 1px map-get($colores , borderColor );
+    background: map-get($colores , mainGradient );
     margin-bottom: 2%;
     margin-left: 1%;
     margin-right: 1%;
@@ -46,44 +46,40 @@ label{
   
 #containerImagen1{
     grid-area: imagenBlog1;
-    border: solid 1px $borderColor;
-    background-color: $mainColor;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: solid 1px map-get($colores , borderColor );
+    background-color: map-get($colores , mainColor );
+    @extend %flexBox;
     margin-right: 2%;
     margin-left: 2%;
 }
   
 #containerTexto1{
     grid-area: textoBlog1;
-    border: solid 1px $borderColor;
-    background-color: $mainColor;
+    border: solid 1px map-get($colores , borderColor );
+    background-color: map-get($colores , mainColor );
     margin-right: 2%;
 }
   
 #containerTitulo2{
     grid-area: tituloBlog2;
-    border: solid 1px $borderColor;
-    background: $mainGradient;
+    border: solid 1px map-get($colores , borderColor );
+    background: map-get($colores , mainGradient );
     margin: 2% 1% 2% 1%;
 }
   
 #containerImagen2{
     grid-area: imagenBlog2;
-    border: solid 1px $borderColor;
-    background-color: $mainColor;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: solid 1px map-get($colores , borderColor );
+    background-color: map-get($colores , mainColor );
+    @extend %flexBox;
     margin-right: 2%;
     margin-left: 2%;
 }
   
 #containerTexto2{
     grid-area: textoBlog2;
-    border: solid 1px $borderColor;
-    background-color: $mainColor;
+    border: solid 1px map-get($colores , borderColor );
+    background-color: map-get($colores , mainColor );
     margin-right: 2%;
 }
   

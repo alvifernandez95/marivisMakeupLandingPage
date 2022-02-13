@@ -1,21 +1,18 @@
 /*Le aplicamos estilo al footer de todas las paginas.*/
 footer{
-    border: 1px solid $borderColor;
+    border: 1px solid map-get($colores , borderColor );
     text-align: center;
-    background: rgb(2,0,36);
-    background: $mainGradient;
-    color:$fontColor;
+    background: map-get($colores , mainGradient );
+    color: map-get($colores , fontColor );
     margin-bottom: 3%;
     margin-top: 5%;
 }
 
 .contenedorFlexFooter{ 
     list-style: none;
-    display: flex;
+    @extend %flexBox;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; 
 }
 
 .itemFlexFooter{

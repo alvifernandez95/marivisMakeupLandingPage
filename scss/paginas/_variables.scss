@@ -1,5 +1,18 @@
-$fontColor: whitesmoke;
-$borderColor: whitesmoke;
-$mainColor: #D067E6;
-$secondaryColor: #c2abc7;
-$mainGradient: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,28,169,0.8776552857471114) 100%, rgba(0,212,255,1) 100%);
+/*Utilizamos un Map para los colores del sitio.*/
+$colores: (
+    fontColor: whitesmoke,/*Color de la fuente*/
+    borderColor: whitesmoke,/*Color de los bordes*/
+    mainColor: #D067E6,/*Color Principal*/
+    secondaryColor: #c2abc7,/*Color secundario*/
+    mainGradient: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,28,169,0.8776552857471114) 100%, rgba(0,212,255,1) 100%),/*Degrade*/
+    hover-primario: darken(#D067E6, 20)
+);
+
+/*Utilizamos un Extend para el código que se repite muchas veces.*/
+%flexBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Ahora vamos a utilizar un Mixin.*/

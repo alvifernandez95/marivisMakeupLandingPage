@@ -1,4 +1,12 @@
 @charset "UTF-8";
+/*Utilizamos un Map para los colores del sitio.*/
+/*Utilizamos un Extend para el código que se repite muchas veces.*/
+.logoContainer, .contenedorFlexFooter, #containerImagen1, #containerImagen2, #submitButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/*Ahora vamos a utilizar un Mixin.*/
 /*Reseteamos el padding y el margen para todos los archivos. */
 * {
   margin: 0;
@@ -50,7 +58,6 @@ h4 {
 /*Le aplicamos estilo al header de todas las paginas. Esto incluye
 color de background, color de letras, margenes y alineación. */
 header {
-  background: #020024;
   background: linear-gradient(90deg, #020024 0%, rgba(195, 28, 169, 0.877655) 100%, #00d4ff 100%);
   color: whitesmoke;
   margin-bottom: 3%;
@@ -79,11 +86,6 @@ header {
   margin-top: 2%;
   margin-bottom: 2%; }
 
-.logoContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
 #navbarText {
   font-family: 'Montserrat', sans-serif; }
 
@@ -94,7 +96,6 @@ header {
 footer {
   border: 1px solid whitesmoke;
   text-align: center;
-  background: #020024;
   background: linear-gradient(90deg, #020024 0%, rgba(195, 28, 169, 0.877655) 100%, #00d4ff 100%);
   color: whitesmoke;
   margin-bottom: 3%;
@@ -102,11 +103,8 @@ footer {
 
 .contenedorFlexFooter {
   list-style: none;
-  display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center; }
+  flex-wrap: wrap; }
 
 .itemFlexFooter {
   width: 10%;
@@ -148,9 +146,7 @@ footer {
   height: auto;
   margin-left: 2%;
   float: left;
-  border-color: #D067E6;
-  border-width: 10px;
-  border-style: solid;
+  border: solid 10px #D067E6;
   border-radius: 10px;
   margin-right: 3%;
   grid-area: fotoIndex; }
@@ -236,9 +232,6 @@ label {
   grid-area: imagenBlog1;
   border: solid 1px whitesmoke;
   background-color: #D067E6;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-right: 2%;
   margin-left: 2%; }
 
@@ -258,9 +251,6 @@ label {
   grid-area: imagenBlog2;
   border: solid 1px whitesmoke;
   background-color: #D067E6;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-right: 2%;
   margin-left: 2%; }
 
@@ -310,7 +300,6 @@ label {
 /*Estilo del table header para la tabla de precios.*/
 th {
   height: 70px;
-  /*background-color: #DFB4E3;*/
   color: whitesmoke;
   font-family: 'Montserrat', sans-serif; }
 
@@ -343,9 +332,6 @@ th, td {
 
 #submitButtonContainer {
   grid-area: submit;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 5%; }
 
 #submitButton {

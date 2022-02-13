@@ -29,19 +29,17 @@
   
 #submitButtonContainer{
     grid-area: submit;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flexBox;
     height: 5%;
 }
 
 #submitButton{
     display: inline-block;
     border-radius: 5%;
-    background: $mainGradient;
+    background: map-get($colores, mainGradient );
     border: solid 1px;
-    border-color: $borderColor;
-    color: $fontColor;
+    border-color: map-get($colores , borderColor );
+    color: map-get($colores, fontColor );
     text-align: center;
     font-size: 28px;
     padding: 5%;

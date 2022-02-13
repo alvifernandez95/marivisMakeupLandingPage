@@ -4,10 +4,10 @@
 }
   
 .galleryContainerImageFrame{
-    background-color:$mainColor;
+    background-color: map-get($colores, mainColor );
     margin-top: 10%;
     margin-bottom: 10%;
-    border: $borderColor;
+    border: map-get($colores, borderColor );
     border-style: solid;
     border-width: 3px;
     margin-left: 1%;
@@ -16,7 +16,7 @@
   
 .galleryContainerImageDescription{
     font-family: 'Montserrat', sans-serif;
-    color: $fontColor;
+    color: map-get($colores , fontColor );
     font-weight: 500;
     text-align: center;
     margin-bottom: 2%;

@@ -1,13 +1,12 @@
 /*Le aplicamos estilo al header de todas las paginas. Esto incluye
 color de background, color de letras, margenes y alineación. */
 header{
-    background: rgb(2,0,36);
-    background: $mainGradient;
-    color:$fontColor;
+    background: map-get($colores , mainGradient );
+    color: map-get($colores , fontColor );
     margin-bottom: 3%;
     text-align: center;
     vertical-align: middle;
-    border: 1px solid $borderColor;
+    border: 1px solid map-get($colores , borderColor );
 }
 
 /*Estilo del logo.*/
@@ -36,9 +35,7 @@ header{
 }
 
 .logoContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flexBox;
 }
 
 #navbarText{
