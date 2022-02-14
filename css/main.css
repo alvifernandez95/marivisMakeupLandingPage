@@ -70,7 +70,9 @@ header {
 
 /*Estilo del logo.*/
 #logo {
-  margin-top: 1%; }
+  margin-top: 1%;
+  height: 5%;
+  width: 5%; }
 
 /*Estilo del texto en el header.*/
 .headerText {
@@ -285,6 +287,8 @@ label {
   margin-bottom: 2%; }
 
 .galleryContainerImage {
+  width: 50%;
+  height: auto;
   margin-left: 25%;
   margin-top: 5%;
   margin-bottom: 2%;
