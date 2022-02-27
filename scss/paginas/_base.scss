@@ -9,23 +9,14 @@ body{
     background-color: map-get($colores , secondaryColor );
 }
 
-/*Le aplicamos estilo al titulo principal. Incluye tamaño y tipo de fuente y alineación.*/
-h1{
-    vertical-align: middle;
-    text-align: center;
-    font-family: 'Pushster', cursive;
-    @include fontProperties(200%, 100);
-    padding-bottom: 1%;
-}
-
 /*Le aplicamos estilo los anchor.*/
 a{
     color: map-get($colores , fontColor );
     text-decoration: none;
 }
 
-/*Le damos color y aplicamos estilo de letra a los titulos h2.*/
-h2{
+/*Le damos color y aplicamos estilo de letra a los titulos h1.*/
+h1{
     color: map-get($colores , fontColor );
     font-family: 'Pushster', cursive;
     text-align: center;
@@ -36,8 +27,8 @@ h2{
     border-color: map-get($colores , borderColor );
 }
 
-/*Estilo de los títulos h3.*/
-h3{
+/*Estilo de los títulos h2.*/
+h2{
     color: map-get($colores , fontColor );
     font-family: 'Montserrat', sans-serif;
     @include fontProperties(200%, 100);
@@ -45,8 +36,8 @@ h3{
     padding-left: 2%;
 }
 
-/*Estilo de los títulos h4.*/
-h4{
+/*Estilo de los títulos h3.*/
+h3{
     color: map-get($colores , fontColor );
     font-family: 'Montserrat', sans-serif;
     padding-left: 2%;

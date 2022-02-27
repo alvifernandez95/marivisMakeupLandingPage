@@ -16,22 +16,13 @@
 body {
   background-color: #c2abc7; }
 
-/*Le aplicamos estilo al titulo principal. Incluye tamaño y tipo de fuente y alineación.*/
-h1 {
-  vertical-align: middle;
-  text-align: center;
-  font-family: 'Pushster', cursive;
-  font-weight: 100;
-  font-size: 200%;
-  padding-bottom: 1%; }
-
 /*Le aplicamos estilo los anchor.*/
 a {
   color: whitesmoke;
   text-decoration: none; }
 
-/*Le damos color y aplicamos estilo de letra a los titulos h2.*/
-h2 {
+/*Le damos color y aplicamos estilo de letra a los titulos h1.*/
+h1 {
   color: whitesmoke;
   font-family: 'Pushster', cursive;
   text-align: center;
@@ -42,8 +33,8 @@ h2 {
   border-style: solid;
   border-color: whitesmoke; }
 
-/*Estilo de los títulos h3.*/
-h3 {
+/*Estilo de los títulos h2.*/
+h2 {
   color: whitesmoke;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
@@ -51,8 +42,8 @@ h3 {
   padding-top: 2%;
   padding-left: 2%; }
 
-/*Estilo de los títulos h4.*/
-h4 {
+/*Estilo de los títulos h3.*/
+h3 {
   color: whitesmoke;
   font-family: 'Montserrat', sans-serif;
   padding-left: 2%;
@@ -67,6 +58,9 @@ header {
   text-align: center;
   vertical-align: middle;
   border: 1px solid whitesmoke; }
+
+nav {
+  background: linear-gradient(90deg, #020024 0%, rgba(195, 28, 169, 0.877655) 100%, #00d4ff 100%); }
 
 /*Estilo del logo.*/
 #logo {
@@ -120,6 +114,14 @@ footer {
 .fab:hover {
   animation: animationIcon 0.5s;
   animation-iteration-count: infinite; }
+
+@media all and (max-width: 760px) {
+  .fab {
+    width: 10px;
+    height: auto; } }
+
+.fab {
+  max-width: 10px; }
 
 @keyframes animationIcon {
   0% {
