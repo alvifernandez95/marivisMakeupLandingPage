@@ -4,9 +4,9 @@ footer{
     text-align: center;
     background: map-get($colores , mainGradient );
     color: map-get($colores , fontColor );
-    /*margin-bottom: 3%;
-    margin-top: 5%;*/
-    margin-top: auto;
+    /*margin-bottom: 3%;*/
+    margin-top: 5%;
+    
 }
 
 .contenedorFlexFooter{ 

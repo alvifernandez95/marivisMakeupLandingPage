@@ -100,9 +100,8 @@ footer {
   text-align: center;
   background: linear-gradient(90deg, #020024 0%, rgba(195, 28, 169, 0.877655) 100%, #00d4ff 100%);
   color: whitesmoke;
-  /*margin-bottom: 3%;
-    margin-top: 5%;*/
-  margin-top: auto; }
+  /*margin-bottom: 3%;*/
+  margin-top: 5%; }
 
 .contenedorFlexFooter {
   list-style: none;
