@@ -7,6 +7,9 @@
 /*Le aplicamos color al body de todas las paginas.*/
 body{
     background-color: map-get($colores , secondaryColor );
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;    
 }
 
 /*Le aplicamos estilo los anchor.*/
